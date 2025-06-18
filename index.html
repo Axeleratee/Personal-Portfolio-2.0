@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axel's Portfolio</title>
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Google Icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+
+    <!--SwiperJS CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!--CSS file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav class="navbar">
+        <a href="#home" class="logo">XLR8</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#trainings">Trainings</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+     <section id="home" class="hero">
+        <div>
+            <h2>I'm</h2>
+            <h1>Axel Chester Lee Castro</h1>
+            <p>A <span>Junior Full-stack</span> and <span>Game dev</span> here! 👨‍💻 with a strong passion for programming.</p>
+            <p class="highlight">I specialize in both front-end and back-end development, continuously honing <br/> my skills to build efficient and scalable web applications.</p>
+            <a href="./Files/Castro-Axel-Chester-Lee-Resume.pdf" download class="cta-button">Download CV</a>
+        </div>
+        <div class="hero-image">
+            <img src="./Images/formal.jpg" alt="my profile" class="profile-img">
+        </div>
+     </section>
+
+     <!--About Section-->
+    <section id="about" class="about">
+        <h2 class="about-title">About Me</h2>
+        <div class="about-content fitness">
+            <div class="text-content">
+                <h2>Fitness Enthusiast</h2>
+                <hr>
+                <p class="about-description">
+                As a fitness enthusiast, I believe that health is the most valuable form of wealth. 
+                I dedicate time and energy to staying active, eating mindfully, and continuously 
+                learning about wellness. For me, a strong body and a clear mind are the foundations 
+                for living fully and giving my best in all areas of life.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="./Images/fitness.jpeg" alt="myself at the gym">
+            </div>
+        </div>
+        <div class="about-content travel">
+            <div class="text-content">
+            <h2>Adventurer</h2>
+            <hr>
+            <p class="about-description">
+                I love to travel whenever I get the chance to relax, reset, and reconnect with myself. 
+                Exploring new places gives me clarity and peace of mind. When my soul is at ease, I find 
+                that I’m able to show up as my best self in work, in life, and in everything I do.
+            </p>
+            </div>
+            <div class="about-image">
+                <img src="./Images/travel.jpeg" alt="Me at Bohol to spend vacation">
+            </div>
+        </div>
+        <div class="about-content cats">
+            <div class="text-content">
+            <h2>Fur-ever friend</h2>
+            <hr>
+            <p class="about-description">
+                I’m an animal lover at heart, with a home full of cats and dogs—each with their own 
+                quirks and charm. This is Tom, one of my nine beloved fur babies. I didn’t include 
+                the rest to keep things simple, but they’re just as loved and spoiled. Caring for them 
+                brings me comfort and reminds me to slow down and enjoy life’s simple joys.
+            </p>
+            </div>
+            <div class="about-image">
+                <img src="./Images/tom.jpeg" alt="My British long hair cat">
+            </div>
+        </div>
+    </section>
+
+     <!-- Skills Section-->
+      <section id="skills" class="skills">
+        <h2 class="technical-expertise">Technical Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>React, HTML5, CSS3, Javascript</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-server"></i>
+                <h3>Backend Development</h3>
+                <p>Node.js, Basic Python, MongoDB, PostgreSQL</p>
+            </div>
+             <div class="skill-card">
+                <i class="fa-solid fa-gamepad"></i>
+                <h3>Game Development</h3>
+                <p>Unreal Engine 5, C++</p>
+            </div>
+        </div>
+      </section>
+
+      <!-- Trainings Section-->
+      <section id="trainings" class="trainings">
+        <h2>Trainings & Certifications</h2>
+        <div class="container swiper">
+            <div class="card-wrapper">
+                <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link">
+                            <img src="./Certificates/The Complete Full-Stack Web Development Bootcamp by Angela Yu.jpg" alt="Web development bootcamp certificate" class="card-image">
+                            <p class="badge fullstack">Full-stack Development</p>
+                            <h2 class="card-title">The Complete Full-Stack Web Development Bootcamp by <span>Dr. Angela Yu</span></h2>
+                            <button class="card-button material-symbols-rounded">arrow_forward</button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link">
+                            <img src="./Certificates/The Web Developer Bootcamp 2025 by Colt Steele.jpg" alt="Web development bootcamp certificate" class="card-image">
+                            <p class="badge fullstack">Full-stack Development</p>
+                            <h2 class="card-title colt">The Web Developer Bootcamp 2025 by <span>Colt Steele</span></h2>
+                            <button class="card-button material-symbols-rounded">arrow_forward</button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link">
+                            <img src="./Certificates/Untitled.jpg" alt="Web development bootcamp certificate" class="card-image">
+                            <div class="in-progress">
+                                <p class="badge python">Python</p>
+                                <p class="training"> Training in Progress..</p>
+                            </div>
+                            <h2 class="card-title">100 days of Code: The Complete Python Pro Bootcamp by <span>Dr. Angela Yu</span></h2>
+                            <button class="card-button material-symbols-rounded">arrow_forward</button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link">
+                            <img src="./Certificates/Unreal Engine.jpg" alt="Web development bootcamp certificate" class="card-image">
+                            <p class="badge gamedev">Game Development</p>
+                            <h2 class="card-title">Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games by <span>Ben Tristem</span> & <span>GameDev.tv Team</span></h2>
+                            <button class="card-button material-symbols-rounded">arrow_forward</button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="#" class="card-link">
+                            <img src="./Certificates/The Ultimate SEO Training 2024 + SEO for Wordpress Websites.jpg" alt="Web development bootcamp certificate" class="card-image">
+                            <p class="badge seo">SEO</p>
+                            <h2 class="card-title">The Ultimate SEO Training 2025 + SEO for Wordpress Websites</h2>
+                            <button class="card-button material-symbols-rounded">arrow_forward</button>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+
+            </div>
+        </div>
+      </section>
+
+        <!--contact-Me Section-->
+            <section id="contact" class="contact">
+                <div class="contact-container">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                        <div class="contact-left-title">
+                            <h2>Let's Connect!</h2>
+                            <hr>
+                        </div>
+                        <input type="hidden" name="access_key" value="8a5f5b9f-231d-426b-a0c6-a0676de35afd">
+                        <input type="text" name="name" placeholder="Your Name / Company Name" class="contact-inputs" required>
+                        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                        <textarea name="message" placeholder="Your Message" class="contact-inputs"></textarea>
+                        <button type="submit">Send <i class="fa-solid fa-share-from-square" id="send"></i></button>
+                    </form>
+
+                    <h2 class="hover-logo">Hover me around!</h2>
+                    
+                        <spline-viewer class="logo-3D" loading-anim-type="spinner-small-dark" url="https://prod.spline.design/n7y6qZa7PXT3rz24/scene.splinecode"></spline-viewer>
+                    
+                </div>
+            </section>
+
+      <!--Footer-->
+      <footer>
+        <p>&copy; XLR8 2025. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/Axeleratee" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/axelchesterlee/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="http://Wa.me/+639612724466" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/castroaxel" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+      </footer>
+
+      <!--Javascript-->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="main.js"></script>
+      <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.9/build/spline-viewer.js"></script>
+      
+</body>
+</html>
